@@ -30,7 +30,7 @@ any_client.py -type stdio -url "npx -y @modelcontextprotocol/server-sequential-t
 
 2. 输入数字 1~n 会进入工具，会展示工具说明书
 
-3. 此时输入json格式的参数，来测试这个工具。建议从外界记事本写好json复制粘贴进来。
+3. 此时输入json格式的参数，来测试这个工具。建议从外界记事本写好json复制粘贴进来。需要保证是一个合法的json格式。
 
 # 支持的其他命令
 
