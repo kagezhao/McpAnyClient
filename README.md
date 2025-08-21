@@ -24,6 +24,18 @@ any_client.py -type stdio -url "npx -y @modelcontextprotocol/server-sequential-t
 
 如果不提供命令行参数直接运行，会提示输入url
 
+# 命令行操作
+
+1. 输入url后，如果连接成功，会列出出工具清单
+
+2. 输入数字 1~n 会进入工具，会展示工具说明书，此时等待输入工具测试
+
+3. 此时输入json格式的参数，来测试这个工具。可以复制粘贴进来。
+
+# 支持的其他命令
+
+- list: 列出工具清单
+- dump: 保存全局工具完整说明书到当前目录的  schema.json 文件
 
 
 

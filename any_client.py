@@ -2,7 +2,7 @@
 """
 any_client - A Python client for testing MCP servers
 
-This tool allows users to connect to MCP servers using SSE or streamable HTTP,
+This tool allows users to connect to MCP servers using stdio, SSE or streamable HTTP,
 list available tools, and call them with user-provided parameters.
 """
 
