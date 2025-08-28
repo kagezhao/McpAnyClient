@@ -141,7 +141,7 @@ class FastMcpClient:
                 continue
 
             elif command == "list":
-                await self.cmd_list_tools()
+                self.cmd_list_tools()
             elif command == "dump":
                 await self.cmd_dump_tools_schema()
             elif command == "quit":
